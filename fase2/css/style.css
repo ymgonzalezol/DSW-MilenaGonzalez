@@ -1,0 +1,116 @@
+  *{
+      padding: 0px;
+      margin:0px;
+      } 
+      #menu{
+      margin:auto;
+      width:600px;
+      
+      }
+      ul, ol{
+      list-style:none;
+      }
+      .nav li a {
+      background-color:#ce8db3;
+      color: cornsilk;
+      text-decoration: none;
+      padding: 10px 15px ;
+      display:block;
+      }
+      .nav > li{
+     
+      }
+      .nav li a:hover{
+      background-color: darkgray ;
+      }
+      .nav li ul{
+      display:none;
+      position:absolute;
+      min-width: 140px;
+      }
+      .nav li:hover > ul{
+      display:block 
+      }
+      .section-meta{
+      margin-left: 60px;
+      margin-right: 100px;
+      margin-top: 5px;
+      margin-bottom: 10px;      
+      color: black;
+      }
+
+      #article{
+
+      margin-left: 100px;
+      margin-right: 500px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-family:Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      }
+	  
+	  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(214, 174, 204);
+   color: white;
+   text-align: center;
+}
+
+.hero .hero-image {
+    position: relative;
+    text-align: right;
+}
+
+.hero .hero-image img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+.container {
+  padding: 0 12px;
+  width: 1200px;
+}
+
+.container .container {
+  width: 100%;
+  padding: 0;
+}
+
+/*cp*/
+.global-container {
+	min-height: 100%; 
+	position: relative; 
+	margin:0 auto;
+  width: 1200px;
+  
+}
+
+.page-container {
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  margin: 5em auto 0;
+  width: 1200px;
+}
+
+.slide {
+  max-height: 332px;
+  overflow: hidden;
+}
+
+#wowslider-container1, #wowslider-container1 .ws_images > div > img, #wowslider-container1 .ws_images {
+  max-height: 351px !important;
+  max-width: 897px !important;
+}
+
+body{
+  background: url("../images/fond.gif") no-repeat scroll 6% -51px #e2ead8;
+  color: #000;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
