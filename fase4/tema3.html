@@ -1,0 +1,266 @@
+<head>
+  <title>Tema3F3</title>
+  <!-- SEO-->
+  <meta name="Milena González Olaya" content="Diseño de sitios web Fase 3 UNAD">
+  <meta name="keywords" content="Web,Diseño-de-sitios-web,CSS,HTML">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+  <meta charset="UTF-8">
+  <!-- <link href="img/favicon.ico" rel="icon">-->
+  <!-- Librerias  bootstrap-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link href="css/grid.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="Header">
+      <div class="Logo1">
+        <img src="img/logo1.png" width="150px" height="150px">
+
+      </div>
+      <div class="Titulo">
+
+        <img src="img/banner.jpg" alt="" width="750px" height="150px">
+      </div>
+      <div class="TimeLine ">
+
+        <a class="s3d facebook center-fb" href="https://www.facebook.com/UniversidadUNAD/">
+          Facebook
+          <span class="icons facebook "></span>
+        </a>
+
+        <a href="https://twitter.com/universidadunad?lang=en" class="s3d twitter center-tw ">
+          Twitter
+          <span class="icons twitter"></span>
+        </a>
+
+
+      </div>
+
+    </div>
+    <div class="Menu">
+
+      <nav class="navbar navbar-light" style="background-color: #9c9dca;">
+
+        <a class="navbar-brand" href="#">
+          <h3>Menú</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Temas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="tema1.html">Etiquetas basicas en HTML</a>
+                <a class="dropdown-item" href="tema2.html">HTML y CSS</a>
+                <a class="dropdown-item" href="tema3.html">SEO y Media Queries</a>
+
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Recursos digitales
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="recurso1.html">HTML Basico</a>
+                <a class="dropdown-item" href="recurso2.html">HTML con estilos CSS bootstrap</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Aprendizaje
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
+                <a class="dropdown-item" href="actividad2.html">Activiad 2</a>
+
+              </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="autor.html">Autor</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+
+    </div>
+
+    <div class="Contenido">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 style="text-align: justify;">
+
+              <h2 style="text-align: center; color: rgb(137, 100, 172);"> Media Queries de CSS</h2>
+              <p>&nbsp;</p>
+              Las Media Queries son una de las grandes ventajas de CSS3, ya que permiten saber qué sistema se está
+              visualizando una página web y, en función de ello, aplicar unas reglas de estilo u otras. Así, podemos
+              servir un CSS personalizado, acorde las condiciones del navegador o dispositivo que nos visita. Como
+              veremos a continuación, se han convertido en uno de los mejores recursos con los que cuentan los
+              diseñadores para hacer sitios responsive.
+              <p>&nbsp;</p>
+
+
+              Utilizar las Media Queries de CSS3 es muy sencillo, como todo el lenguaje CSS en general. De una manera
+              descriptiva podemos indicar una condición y a continuación los estilos que deben aplicarse cuando ésta se
+              cumpla. Para aclarar su sintaxis veremos una serie de ejemplos útiles e ilustrativos.
+              <p>&nbsp;</p>
+
+              <center>
+                <img src="img/img2_tema3.JPG" width="400" height="300">
+              </center>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+
+              <h2 style="text-align: center; color: rgb(137, 100, 172);"> SEO</h2>
+              <p>&nbsp;</p>
+              Significa Search Engine Optimization (optimización para motores de búsqueda) un profesional SEO llevará a
+              cabo un análisis o auditoría para encontrar puntos a mejorar de un proyecto online y hacerlo amigable para
+              los motores de búsqueda. El SEO se encargará de revisar aspectos como la arquitectura web, las palabras
+              clave o los contendidos del sitio para determinar la mejor estrategia que lleve a la web a los primeros
+              puestos en los resultados de búsqueda.
+
+              <p>&nbsp;</p>
+
+
+            </h5>
+          </div>
+
+
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                  aria-expanded="false" aria-controls="collapseFive">
+                  Referencias
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                <h4 style="color: #b991c5;">Enlaces de interes y referencias</h4>
+                <h6><i>El economista (2016).SEO.Tomado
+                    de.https://www.eleconomista.es/diccionario-de-economia/seo-search-engine-optimization</i></h6>
+                <h6><i>Arsys.(2017). Cómo utilizar las Media Queries de CSS3 para mejorar la visualización de nuestros
+                    proyectos web.Tomado de https://www.arsys.es/blog/programacion/media-queries-css3//</i></h6>
+                <h6><i>Web Empresa.(2020). Herramientas para un buen diseño Web Responsive.Tomado de
+                    https://www.webempresa.com/blog/herramientas-diseno-web-responsive.html.</i></h6>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="Información_adicional" style="background-color: rgb(204, 160, 204);">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+
+      <iframe width="390" height="353 " src="https://www.youtube.com/embed/VWL7I71pU2A">
+      </iframe>
+      <p>&nbsp;</p>
+
+      <img src="img/img1_tema3.JPG" width="390" height="353 ">
+      <p>&nbsp;</p>
+
+
+
+
+
+
+    </div>
+
+    <div class="Foteer ">
+      <center>
+        <p>2021-05-21© Yinneth Milena Gonzalez -- UNAD-- skype : ymgonzalezol1.Todos los derechos reservados. </p>
+      </center>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <!-- Tomado bootstrap-->
+
+
+  <!-- Antes de bootstrap
+
+
+         <nav >
+            <ul class="nav" >
+               <li><a href="../index.html">Inicio</a></li>
+               <li>
+                  <a href="">Temas</a>
+                  <ul>
+                     <li><a href="Design.html">Tema 1</a></li>
+                     <li><a href="">Tema 2</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="">Recursos digitales</a>
+                  <ul>
+                     <li><a href="">Recurso 1</a></li>
+                     <li><a href="">Recurso 2</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="">Aprendizaje</a>
+                  <ul>
+                     <li><a href="">Actividad 1</a></li>
+                     <li><a href="">Actividad 2</a></li>
+                  </ul>
+               </li>
+               <li><a href="DatosEstudiante.html">Datos Estudiante</a></li>
+            </ul>
+         </nav>
+   -->
+
+
+
+
+
+
+
+</body>

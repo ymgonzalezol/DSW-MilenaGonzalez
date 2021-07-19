@@ -1,0 +1,431 @@
+<head>
+  <title>Tema1F3</title>
+  <!-- SEO-->
+  <meta name="Milena González Olaya" content="Diseño de sitios web Fase 3 UNAD">
+  <meta name="keywords" content="Web,Diseño-de-sitios-web,CSS,HTML">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta charset="UTF-8">
+  <!-- <link href="img/favicon.ico" rel="icon">-->
+  <!-- Librerias  bootstrap-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link href="css/grid.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="Header">
+      <div class="Logo1">
+        <img src="img/logo1.png" width="150px" height="150px">
+
+      </div>
+      <div class="Titulo">
+
+        <img id="bannerImage" src="img/banner.jpg" alt="">
+      </div>
+      <div class="TimeLine ">
+
+        <a class="s3d facebook center-fb" href="https://www.facebook.com/UniversidadUNAD/">
+          Facebook
+          <span class="icons facebook "></span>
+        </a>
+
+        <a href="https://twitter.com/universidadunad?lang=en" class="s3d twitter center-tw ">
+          Twitter
+          <span class="icons twitter"></span>
+        </a>
+
+
+      </div>
+
+    </div>
+    <div class="Menu">
+
+      <nav class="navbar navbar-light" style="background-color: #9c9dca;">
+
+        <a class="navbar-brand" href="#">
+          <h3>Menú</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Temas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="tema1.html">Etiquetas basicas en HTML</a>
+                <a class="dropdown-item" href="tema2.html">HTML y CSS</a>
+                <a class="dropdown-item" href="tema3.html">SEO y Media Queries</a>
+
+
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Recursos digitales
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="recurso1.html">HTML Basico</a>
+                <a class="dropdown-item" href="recurso2.html">HTML con estilos CSS bootstrap</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Aprendizaje
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
+                <a class="dropdown-item" href="actividad2.html">Activiad 2</a>
+
+              </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="autor.html">Autor</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+
+    </div>
+
+    <div class="Contenido">
+
+      <div class="accordion" id="accordionExample">
+
+        <div class="card">
+          <div class="card-header" id="headingOne">
+
+            <h2 style="text-align: center; color: rgb(137, 100, 172);">Etiquetas basicas en HTML</h2>
+            <p>&nbsp;</p>
+
+            <h5 style="text-align: justify;">
+              El lenguaje HTML es el lenguaje con el que se escriben las páginas web y que entienden los navegadores, de
+              modo que quede determinada la forma en que mostrar la información (qué tipos, tamaños y colores de las
+              letras, dónde colocar las imágenes, cómo enlazar a otras páginas, ...).
+
+            </h5>
+          </div>
+
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                Estructura de una pagina web
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+
+
+              <table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+                <tbody>
+                  <tr>
+                    <td style="width: 10%;">Código</td>
+                    <td style="background-color: rgb(255, 255, 204);">
+                      &lt;html&gt;<br>
+                      &lt;head&gt;<br>
+                      &nbsp; &lt;title&gt;Primera pagina de
+                      Milena&lt;/title&gt;<br>
+                      &lt;/head&gt;<br>
+                      &lt;body&gt;<br>
+                      Ésta es la primera página de Milena<br>
+                      &lt;/body&gt;<br>
+                      &lt;/html&gt;</td>
+                  </tr>
+                  <tr>
+                    <td>Título</td>
+                    <td style="background-color: rgb(0, 0, 255);"><span
+                        style="color: rgb(255, 255, 255); font-weight: bold;">Primera
+                        pagina de Milena</span></td>
+                  </tr>
+                  <tr>
+                    <td>Visualización</td>
+                    <td style="background-color: rgb(204, 255, 255);">Ésta
+                      es la primera página de Milena</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Etiquetas
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <h6><strong>&lt;HTML&gt; …
+                  &lt;/HTML&gt;</strong></h6>
+              Delimita y engloba toda la página web, que consta de cabecera y cuerpo.
+              <p>&nbsp;</p>
+              <h6><strong>&lt;HEAD&gt; … &lt;/HEAD&gt;</strong></h6>
+              Delimita y engloba la cabecera de una página, que contiene un conjunto de informaciones que no se muestran
+              en la ventana, entre ellas el título de la página, pero que pueden ayudar a los navegadores y a los
+              buscadores para interpretar o a encontrar correctamente la página.
+              <p>&nbsp;</p>
+              <h6><strong>&lt;TITLE&gt; … &lt;/TITLE&gt;</strong></h6>
+              Dentro de la cabecera (HEAD), lo que se incluye aquí se muestra en la barra del título de la ventana del
+              navegador.
+              <p>&nbsp;</p>
+              <h5><strong>Metadatos</strong></h5>
+              La cabecera admite otras muchas etiquetas
+              <p>&nbsp;</p>
+              <h6><strong>&lt;BODY&gt; … &lt;/BODY&gt;</strong></h6>
+              Delimita y engloba el cuerpo de la página, que son el conjunto de informaciones (texto e imágenes) que se
+              muestran en la página, así como las indicaciones de cómo deben mostrarse.
+              Admite atributos
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <h4 style="background-color: rgb(174, 138, 185); color: white ;">Formatos
+                de párrafo</h4>
+              <p>&nbsp;</p>
+
+              El texto de la página se puede estructurar en encabezamientos de los diferentes apartados de la página,
+              que pueden tener distintos niveles de 1 a 6 (siendo 1 el más importante) y párrafos normales.
+              <p>&nbsp;</p>
+
+
+              <h6><strong>&lt;H1&gt; ... &lt;/H1&gt; o
+                  &lt;H2&gt; ... &lt;/H2&gt; (hasta 6)</strong></h6>
+
+              Párrafos que son encabezamientos (con distintos niveles).
+              <p>&nbsp;</p>
+              <h6><strong>&lt;P&gt;... &lt;/P&gt;</strong></h6>
+              Párrafos normales.
+              <p>&nbsp;</p>
+              <h6><strong>&lt;P align="center"&gt;... &lt;/P&gt;</strong></h6>
+              El atributo align permite alinear el texto del párrafo. Se
+              puede
+              aplicar igual a las etiquetas &lt;H1&gt;, &lt;H2&gt;,
+              etc ...
+              <p>&nbsp;</p>
+
+              <h6><strong>&lt;BR&gt;</strong></h6>
+              Permite partir un párrafo empezando una línea nueva pero sin dejar espacio.
+              <p>&nbsp;</p>
+
+              <h6><strong>&lt;HR&gt;</strong></h6>
+              Pone una linea horizontal de separación. (admite atributos)
+              <p>&nbsp;</p>
+
+              <h6><strong>&lt;BLOCKQUOTE&gt;…&lt;/BLOCKQUOTE&gt;</strong> </h6>
+              Sangra el párrafo.
+              <p>&nbsp;</p>
+
+              <h4 style="background-color: rgb(174, 138, 185); color: white ;">Formatos
+                de texto</h4>
+              <p>&nbsp;</p>
+
+              El formato de caracteres permite cambiar tanto el tipo de fuente como su tamaño y aspecto.
+              Se pueden utilizar varias etiquetas HTML para dar distintos formatos a un grupo de caracteres:
+              <p>&nbsp;</p>
+
+              <h6><strong>Formatos Físicos:</strong></h6>
+              <ul>
+                <li>Negrita:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;B&gt;…&lt;/B&gt;</li>
+                <li>Cursiva:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;I&gt;…&lt;/I&gt;</li>
+                <li>Subrayado:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;U&gt;…&lt;/U&gt;</li>
+                <li>Teletipo:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;TT&gt;…&lt;/TT&gt;</li>
+                <li>Tachado:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;STRIKE&gt;…&lt;/STRIKE&gt;</li>
+                <li>Grande:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;BIG&gt;…&lt;/BIG&gt;</li>
+                <li>Pequeña:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;SMALL&gt;…&lt;/SMALL&gt;</li>
+                <li>Superíndice:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;SUP&gt;…&lt;/SUP&gt;</li>
+                <li>Subíndice:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;SUB&gt;…&lt;/SUB&gt;</li>
+              </ul>
+
+              <h6><strong>Formatos Lógicos:</strong></h6>
+              <ul>
+                <li>Cita:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                  &lt;CITE&gt;…&lt;/CITE&gt;</li>
+                <li>Código:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;CODE&gt;…&lt;/CODE&gt;</li>
+                <li>Definición:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;DFN&gt;…&lt;/DFN&gt;</li>
+                <li>Énfasis:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;EM&gt;…&lt;/EM&gt;</li>
+                <li>Grueso:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;STRONG&gt;…&lt;/STRONG&gt;</li>
+                <li>Palabras
+                  clave:&nbsp;&nbsp;&nbsp;
+                  &lt;KEY&gt;…&lt;/KEY&gt;</li>
+                <li>Ejemplos:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;SAMP&gt;…&lt;/SAMP&gt;</li>
+                <li>Usuario:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;KBD&gt;…&lt;/KBD&gt;</li>
+                <li>Variables:&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;
+                  &lt;VAR&gt;…&lt;/VAR&gt;</li>
+                <li>Ejemplo
+                  literal:&nbsp;&nbsp;&nbsp;
+                  &lt;XMP&gt;...&lt;/XMP&gt; (ignora las etiquetas HTML
+                  de dentro)</li>
+              </ul>
+              <h4 style="color: #b991c5;">Referencias</h4>
+              <h6><i>IEBS.(2021)Que es una etiueta HTML y cuales son las mas importantes.Tomado
+                  de.https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/</i></h6>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="false" aria-controls="collapseFour">
+                Referencias
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              <h4 style="color: #b991c5;">Enlaces de interes y referencias</h4>
+              <h6><i>IEBS.(2021)Que es una etiueta HTML y cuales son las mas importantes.Tomado
+                  de.https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/</i></h6>
+              <h6><i>Cerveron. Mini-manual con los elementos básicos de HTML.Tomado de
+                  https://www.uv.es/cerveron/paginasweb/notashtml.html</i></h6>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="Información_adicional" style="background-color: rgb(204, 160, 204);">
+      <p>&nbsp;</p>
+
+      <iframe width="390" height="353 " src="https://www.youtube.com/embed/m4tlfxEgV98">
+      </iframe>
+      <p>&nbsp;</p>
+
+      <img src="img/img1_tema1.JPG" width="390" height="353 ">
+      <p>&nbsp;</p>
+
+      <img src="img/img2_tema1.JPG" width="390" height="353 ">
+      <p>&nbsp;</p>
+
+      <img src="img/img3_tema1.JPG" width="390" height="353 ">
+
+
+    </div>
+
+    <div class="Foteer ">
+      <center>
+        <p>2021-05-21© Yinneth Milena Gonzalez -- UNAD-- skype : ymgonzalezol1.Todos los derechos reservados. </p>
+      </center>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <!-- Tomado bootstrap-->
+
+
+  <!-- Antes de bootstrap
+
+
+         <nav >
+            <ul class="nav" >
+               <li><a href="../index.html">Inicio</a></li>
+               <li>
+                  <a href="">Temas</a>
+                  <ul>
+                     <li><a href="Design.html">Tema 1</a></li>
+                     <li><a href="">Tema 2</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="">Recursos digitales</a>
+                  <ul>
+                     <li><a href="">Recurso 1</a></li>
+                     <li><a href="">Recurso 2</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="">Aprendizaje</a>
+                  <ul>
+                     <li><a href="">Actividad 1</a></li>
+                     <li><a href="">Actividad 2</a></li>
+                  </ul>
+               </li>
+               <li><a href="DatosEstudiante.html">Datos Estudiante</a></li>
+            </ul>
+         </nav>
+   -->
+
+
+
+
+
+
+
+</body>
